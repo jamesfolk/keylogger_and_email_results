@@ -9,7 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
+{
+    CFMachPortRef mMachPortRef;
+    CFRunLoopSourceRef  mKeyboardEventSrc;
+    
+}
 
++ (NSString*)keyCodeToReadableStringWithKeyCode:(CGKeyCode)keyCode;
 
 @end
 

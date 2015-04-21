@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#include "keylogger.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+//    start();
+    
+    
+    
+
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

